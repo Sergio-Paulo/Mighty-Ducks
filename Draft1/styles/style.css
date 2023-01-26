@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: block;
+}
+
+nav>a{
+    display: block;
+}
+
+#navbar{
+    display: inline-block;
+    line-height: 250%;
+}
+
+div>section{
+    display: inline;
+}
+
+/* nav{
+    display: inline;
+} */
+
+#logo{
+    display: block;
+}
+
+.schedule{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.about{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#contact{
+    line-height: 170%;
+
+}
