@@ -9,6 +9,7 @@
 h1{
     font-size: 2rem;
     text-align: center;
+    font-variant: all-petite-caps;
 }
 
 h2{
@@ -16,10 +17,14 @@ h2{
     background-color: black;
     text-align: center;
     display: block;
+    font-variant: all-petite-caps;
+
 }
 
 nav>a{
     display: block;
+    font-variant: all-petite-caps;
+
 }
 
 #navbar{
