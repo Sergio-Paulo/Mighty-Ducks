@@ -1,0 +1,139 @@
+*{
+    box-sizing: content-box;
+    padding: 5px;
+    margin: 0;
+    font-size: x-large;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2{
+    border: 1px solid black;
+    text-align: center;
+}
+
+#banner{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+#navbar{
+    position: absolute;
+    top:3rem;
+    right: 0.2rem;
+}
+nav>a{
+    color: white;
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 4px 20px;
+    margin: 5px 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    box-shadow: 4px 4px 1px rgba(243, 199, 199, 0.708);
+}
+
+.schedule{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#logo{
+    width: 180px;
+}
+
+.logo{
+    display: inline;
+    width: 50%;
+}
+
+.about{
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 200%;
+}
+
+#section{
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    left: 10rem;
+    top: 2rem;
+    padding-bottom: 2rem;
+
+
+}
+
+#section-contact{
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    left: 10rem;
+    top: -2rem;
+    padding-bottom: 2rem;
+}
+
+div>p{
+    line-height: 250%;
+}
+
+
+.home-verde{
+    background-color: green;
+}
+
+.about-verde{
+    background-color: green;
+}
+
+.contact-verde{
+    background-color: green;
+}
+
+.image{
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    top: 1rem;
+}
+.image-about{
+    display: inline-block;
+    width: 30%;
+}
+
+#image1{
+    width: 100%;
+    position: relative;
+    left: 8rem;
+    top: 2rem;
+    
+}
+
+#image2{
+    display: inline-block;
+    width: 80%;
+    position: relative;
+    left: 10.4rem;
+}
+
+.image-contact{
+    display: inline-block;
+    width: 30%;
+}
+
+#image3{
+    display: inline-block;
+    width: 80%;
+    position: relative;
+    left: 10.4rem;
+    top: 3rem;
+
+}
+
