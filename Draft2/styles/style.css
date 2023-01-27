@@ -1,12 +1,12 @@
 *{
     box-sizing: content-box;
-    padding: 5px;
+    padding: 0px;
     margin: 0;
     font-size: x-large;
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -17,7 +17,7 @@ h2{
 
 #banner{
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     object-fit: cover;
     object-position: top;
 }
@@ -47,16 +47,19 @@ nav>a{
 
 #logo{
     width: 180px;
+    position: relative;
+    /* top: -5.4rem; */
+    bottom: 1.5rem;
 }
 
 .logo{
     display: inline;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .about{
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 200%;
 }
 
@@ -65,8 +68,8 @@ nav>a{
     width: 50%;
     position: relative;
     left: 10rem;
-    top: 2rem;
-    padding-bottom: 2rem;
+    bottom: 2rem;
+    /* padding-bottom: 2rem; */
 
 
 }
@@ -75,9 +78,16 @@ nav>a{
     display: inline-block;
     width: 50%;
     position: relative;
-    left: 10rem;
-    top: -2rem;
-    padding-bottom: 2rem;
+    left: 15rem;
+    bottom: 4rem;
+    /* padding-bottom: 2rem; */
+}
+#section-about{
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    top: 0.5rem;
+    left: 7rem;
 }
 
 div>p{
@@ -100,8 +110,8 @@ div>p{
 .image{
     display: inline-block;
     width: 30%;
-    position: relative;
-    top: 1rem;
+    /* position: relative;
+    top: 1rem; */
 }
 .image-about{
     display: inline-block;
@@ -111,8 +121,8 @@ div>p{
 #image1{
     width: 100%;
     position: relative;
-    left: 8rem;
-    top: 2rem;
+    left: 7.8rem;
+    top: 1rem;
     
 }
 
