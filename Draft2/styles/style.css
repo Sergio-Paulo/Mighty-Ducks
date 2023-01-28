@@ -8,6 +8,7 @@
 h1{
     font-size: 2rem;
     text-align: center;
+    font-variant-caps:petite-caps;
 }
 
 h2{
@@ -25,7 +26,7 @@ h2{
 
 #navbar{
     position: absolute;
-    top:3rem;
+    top:1.2rem;
     right: 0.2rem;
 }
 nav>a{
@@ -69,9 +70,6 @@ nav>a{
     position: relative;
     left: 10rem;
     bottom: 2rem;
-    /* padding-bottom: 2rem; */
-
-
 }
 
 #section-contact{
@@ -80,7 +78,6 @@ nav>a{
     position: relative;
     left: 15rem;
     bottom: 4rem;
-    /* padding-bottom: 2rem; */
 }
 #section-about{
     display: inline-block;
@@ -110,8 +107,6 @@ div>p{
 .image{
     display: inline-block;
     width: 30%;
-    /* position: relative;
-    top: 1rem; */
 }
 .image-about{
     display: inline-block;
@@ -119,18 +114,19 @@ div>p{
 }
 
 #image1{
-    width: 100%;
+    width: 23rem;
     position: relative;
-    left: 7.8rem;
-    top: 1rem;
+    left: 8.5rem;
+    top: 3rem;
     
 }
 
 #image2{
     display: inline-block;
-    width: 80%;
+    width: 20rem;
     position: relative;
-    left: 10.4rem;
+    left: 11.4rem;
+    top: 1rem;
 }
 
 .image-contact{
@@ -140,10 +136,10 @@ div>p{
 
 #image3{
     display: inline-block;
-    width: 80%;
+    width: 21rem;
     position: relative;
-    left: 10.4rem;
-    top: 3rem;
+    left: 10.5rem;
+    top: 3.3rem;
 
 }
 

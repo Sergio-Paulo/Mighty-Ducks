@@ -28,7 +28,6 @@ nav>a{
 }
 
 #navbar{
-    /* display: inline-block; */
     line-height: 470%;
     margin-left: 50px;
     position: relative;
@@ -75,7 +74,7 @@ div{
 }
 
 .container{
-    width: 80%;
+    width: 72%;
     position: relative;
     top: 2rem;
     left: 3rem;
@@ -91,4 +90,37 @@ div{
     height: 45vh;
     object-fit: cover;
     object-position: top;
+}
+
+.image1{
+    display: inline-block;
+}
+
+#image1{
+    width: 13rem;
+    position: relative;
+    left: 34rem;
+    top: 4.5rem;
+}
+
+.image2{
+    display: inline-block;
+}
+
+#image2{
+    width: 11rem;
+    position: relative;
+    left: 2.9rem;
+    top: 3.7rem;
+}
+
+.image3{
+    display: inline-block;
+}
+
+#image3{
+    width: 14rem;
+    position: relative;
+    left: 40rem;
+    top: 5rem;
 }
