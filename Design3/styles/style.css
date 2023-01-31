@@ -95,3 +95,23 @@ aside>figure>img{
     width: 100vw;
     display: flex;
 }
+
+.home-verde{
+    font-size: 2rem;
+}
+
+.about-verde{
+    font-size: 2rem;
+}
+
+.contact-verde{
+    font-size: 2rem;
+}
+
+.game-verde{
+    font-size: 2rem;
+}
+
+.rules-verde{
+    font-size: 2rem;
+}
