@@ -9,13 +9,13 @@
     box-sizing: border-box;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
 h1{
     font-variant: all-petite-caps;
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
     background-color: white;
 }
-
 nav{
     margin-top: 1rem;
     background-color: black;
@@ -24,6 +24,8 @@ nav{
     align-items: center;
 }
 
+
+
 nav>a{
     color: white;
     text-decoration: none;
@@ -31,16 +33,23 @@ nav>a{
     align-items: center;
 }
 
+
+
 nav>figure>img{
     width: 3rem;
     display: flex;
 }
 
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 .subtitle{
     font-size: 1rem;
     font-weight: bold;
-
 }
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
 aside{
@@ -48,9 +57,11 @@ aside{
     border: 1px solid black;
 }
 
+/* logo en el navbar */
 main>figure>img{
     width: 30rem;
 }
+
 
 main{
     width: 100vw;
@@ -58,44 +69,51 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 2rem;
-    border: 1px solid black;
 }
 
 aside>figure>img{
     width: 10rem;
 }
 
-.container-cards{
+/* CARDS */
+.card-container{
+    height: 100vh;
     display: flex;
-    height: 50vh;
-    align-items: flex-end;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card{
-    display:flex;
-    flex-direction: row;
-    border: 1px solid black;
-    height: 30vh;
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 30rem;
+    padding: 20px;
+	display: inline-block;
 }
 
-.card>a{
+
+
+.img-card{
+    display: inline-block;
+    width: 10rem;
+}
+
+
+.card-info{
+    display: block;
+    width: 30rem;
     text-decoration: none;
     color: black;
 }
-/* .card>figure{
-    display: block;
-} */
 
-.img-card{
-    width: 10rem;
-}
 
 .container-aside-main{
     width: 100vw;
     display: flex;
 }
-
+/* ------------------------------------------------Active Button------------------------------------------------------------------------------------- */
 .home-verde{
     font-size: 2rem;
 }
@@ -114,4 +132,63 @@ aside>figure>img{
 
 .rules-verde{
     font-size: 2rem;
+}
+
+/* ------------------------------------------------Rules--------------------------------------------------------------------------------------------- */
+
+dl{
+    list-style-position: inside;
+}
+
+li > ol{
+    list-style-type: lower-alpha;
+}
+
+
+/* Rules of Play & Policies */
+
+h2{
+    width: 30vw;
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 1.6rem;
+
+}
+
+/* Subtitulo */
+
+#p-subtitle{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+
+/* Contenedor */
+
+#rules{
+    width: 98vw;
+    line-height: 1.5rem;
+
+}
+
+#rules > div{
+    margin: 1.5rem 3rem 6rem 3rem;
+}
+
+dl > dt{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ordered-list-t{
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+
+ul{
+    list-style-type: circle;
+    margin-left: 3rem ;
 }
