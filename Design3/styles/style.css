@@ -45,17 +45,21 @@ nav>figure>img{
 /* -------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 .subtitle{
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-
-aside{
-    width: 20vw;
-    border: 1px solid black;
+.p-home{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2rem;
 }
+
+
 
 /* logo en el navbar */
 main>figure>img{
@@ -71,33 +75,45 @@ main{
     align-items: center;
 }
 
-aside>figure>img{
-    width: 10rem;
+
+
+main > figure > img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
 }
+
+
 
 /* CARDS */
 .card-container{
     height: 100vh;
     display: flex;
     flex-direction: row;
-    align-items: start;
+    align-items: flex-end;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
 }
 
 .card{
-    border: 1px solid red;
-    border-radius: 20px;
+    border: 2px solid black;
+    /* border-radius: 20px; */
     width: 30rem;
     padding: 20px;
 	display: inline-block;
+}
+
+.card > a{
+    text-decoration: none;
 }
 
 
 
 .img-card{
     display: inline-block;
-    width: 10rem;
+    width: 18rem;
 }
 
 
@@ -110,10 +126,12 @@ aside>figure>img{
 
 
 .container-aside-main{
-    width: 100vw;
+    width: 95vw;
     display: flex;
 }
 /* ------------------------------------------------Active Button------------------------------------------------------------------------------------- */
+
+
 .home-verde{
     font-size: 2rem;
 }
@@ -148,10 +166,11 @@ li > ol{
 /* Rules of Play & Policies */
 
 h2{
-    width: 30vw;
+    width: 23vw;
     text-align: center;
     margin-top: 1rem;
-    line-height: 1.6rem;
+    line-height: 3rem;
+    font-size: 1.7rem;
 
 }
 
@@ -160,6 +179,7 @@ h2{
 #p-subtitle{
     text-align: center;
     margin-top: 0.5rem;
+    font-size: 1.3rem;
 }
 
 
@@ -177,7 +197,7 @@ h2{
 
 dl > dt{
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -185,10 +205,62 @@ dl > dt{
 .ordered-list-t{
     font-weight: bold;
     margin-top: 1rem;
+    font-size: 1.3rem;
 }
 
 
 ul{
     list-style-type: circle;
     margin-left: 3rem ;
+}
+
+dd{
+    font-size: 1.2rem;
+}
+
+.p-list{
+    font-size: 1.2rem;
+}
+
+/*---------------------------------------------------- ABOUT -----------------------------------------------------------------------------------*/
+
+.about-container{
+    width: 30vw;
+}
+
+
+.about-container > h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-top: 2rem;
+
+}
+
+.about-container > p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+
+aside{
+    width: 35vw;
+    height: 89.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.card-container-about{
+    margin-left: 2rem;
+
+}
+/*--------------------------------------- CONCTACT ---------------------------------------------------------------------------------------------*/
+
+#section-contact{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    line-height: 6rem;
+    font-style: italic;
 }
