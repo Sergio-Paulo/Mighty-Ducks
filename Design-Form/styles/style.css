@@ -1,0 +1,423 @@
+:root{
+    font-size: 16px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+h1{
+    font-variant: all-petite-caps;
+    display: block;
+    text-align: center;
+    background-color: white;
+}
+nav{
+    margin-top: 1rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+nav>a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    align-items: center;
+    font-variant: all-petite-caps;
+}
+
+
+
+nav>figure>img{
+    width: 3rem;
+    display: flex;
+}
+
+#subtitle-home{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-variant: all-petite-caps;
+}
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.subtitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.p-home{
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2rem;
+}
+
+
+
+/* logo en el navbar */
+
+/* main{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+main{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-home {
+    font-size: 1.2rem;
+    width: 89vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-about{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-home > figure > img{
+    width: 27rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+    box-shadow: 5px 5px;
+}
+
+main > figure > img{
+    width: 30rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+    box-shadow: 5px 5px;
+
+}
+
+.cards-about{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+/* CARDS */
+.card-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7rem;
+    margin-top: 1rem;
+}
+
+.card{
+    border: 2px solid black;
+    /* border-radius: 20px; */
+    /* width: 30rem; */
+    padding: 20px;
+	display: inline-block;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: 5px 5px 5px;
+}
+
+
+.card > a{
+    text-decoration: none;
+}
+
+.img-card-1{
+    display: inline-block;
+    width: 17rem;
+}
+
+
+.img-card{
+    display: inline-block;
+    width: 18rem;
+}
+
+.img-card-3{
+    display: inline-block;
+    width: 19.05rem;
+}
+
+
+.card-info{
+    display: block;
+    text-align: center;
+    /* width: 30rem; */
+    text-decoration: none;
+    color: black;
+}
+
+
+.container-aside-main{
+    width: 95vw;
+    display: flex;
+}
+/* ------------------------------------------------Active Button------------------------------------------------------------------------------------- */
+
+
+.home-verde{
+    font-size: 2rem;
+}
+
+.about-verde{
+    font-size: 2rem;
+}
+
+.contact-verde{
+    font-size: 2rem;
+}
+
+.game-verde{
+    font-size: 2rem;
+}
+
+.rules-verde{
+    font-size: 2rem;
+}
+
+/* ------------------------------------------------Rules--------------------------------------------------------------------------------------------- */
+
+dl{
+    list-style-position: inside;
+}
+
+li > ol{
+    list-style-type: lower-alpha;
+}
+
+
+/* Rules of Play & Policies */
+
+h2{
+    width: 23vw;
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 3rem;
+    font-size: 1.7rem;
+
+}
+
+/* Subtitulo */
+
+#p-subtitle{
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+}
+
+
+/* Contenedor */
+
+#rules{
+    width: 98vw;
+    line-height: 1.5rem;
+
+}
+
+#rules > div{
+    margin: 1.5rem 3rem 6rem 3rem;
+}
+
+dl > dt{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ordered-list-t{
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+
+ul{
+    list-style-type: circle;
+    margin-left: 3rem ;
+}
+
+dd{
+    font-size: 1.2rem;
+}
+
+.p-list{
+    font-size: 1.2rem;
+    font-weight: lighter;
+
+}
+
+.ordered-list-3{
+    font-weight: lighter;
+}
+
+/*---------------------------------------------------- ABOUT -----------------------------------------------------------------------------------*/
+
+.container-about{
+    width: 55vw;
+    line-height: 2.5rem;
+    margin-right: 4rem;
+
+}
+
+
+.container-about > h3{
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-variant: all-petite-caps;
+    
+
+}
+
+.container-about > p{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+
+/* aside{
+    width: 35vw;
+    height: 89.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10rem;
+} */
+
+.card-container{
+    margin-left: 2rem;
+
+}
+
+.img-card-about{
+    display: inline-block;
+    width: 30rem;
+}
+
+
+/*--------------------------------------- CONCTACT ---------------------------------------------------------------------------------------------*/
+
+#section-contact{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    line-height: 6rem;
+    font-style: italic;
+}
+
+.card-container-contact > .card{
+        border: 2px solid black;
+        /* border-radius: 20px; */
+        /* width: 30rem; */
+        padding: 20px;
+        display: inline-block;
+        border-right: none;
+        border-bottom: none;
+        box-shadow: 5px 5px 5px;
+        margin-top:4rem;
+    }
+
+/*------------------------------------------ TABLE ---------------------------------------------------------------------------------------------*/
+
+
+div > table,th, tr, td{
+    border: 1px solid black;
+}
+
+tr > th{
+    width: 17rem;
+    height: 2rem;
+    text-align: center;
+}
+
+tr > td{
+    height: 3rem;
+    text-align: center;
+}
+
+.p-table{
+    width: 40rem;
+    margin-top: 1.5rem;
+    line-height: 2rem;
+}
+
+.p-table2{
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+#title-game{
+    margin-top: 1rem;
+}
+
+table > caption{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: start;
+}
+
+.card-info-contact{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 2.5rem;
+    font-style: italic;
+}
+
+.img-card-contact{
+    display: inline-block;
+    width: 30rem;
+}
+
+.main-info{
+    font-size: 1.2rem;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
