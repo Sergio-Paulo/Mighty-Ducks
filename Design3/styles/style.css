@@ -87,6 +87,16 @@ main{
     justify-content: space-between;
 }
 
+.main-home {
+    font-size: 1.2rem;
+    width: 89vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .main-about{
     width: 100vw;
     height: 85vh;
@@ -96,7 +106,13 @@ main{
     justify-content: space-between;
 }
 
-
+.main-home > figure > img{
+    width: 27rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+    box-shadow: 5px 5px;
+}
 
 main > figure > img{
     width: 30rem;
@@ -121,7 +137,7 @@ main > figure > img{
     align-items: flex-end;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 7rem;
     margin-top: 1rem;
 }
 
@@ -340,7 +356,7 @@ div > table,th, tr, td{
 }
 
 tr > th{
-    width: 10rem;
+    width: 17rem;
     height: 2rem;
     text-align: center;
 }
@@ -388,4 +404,14 @@ table > caption{
 .img-card-contact{
     display: inline-block;
     width: 30rem;
+}
+
+.main-info{
+    font-size: 1.2rem;
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
