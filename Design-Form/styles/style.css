@@ -60,11 +60,10 @@ nav>figure>img{
 /* -------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 .p-home{
-    font-size: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    line-height: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -79,32 +78,37 @@ nav>figure>img{
     align-items: center;
 } */
 
-main{
+/* main{
     width: 100vw;
     height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-}
+} */
 
 .main-home {
     font-size: 1.2rem;
-    width: 99vw;
-    height: 88vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
 }
 
 .main-about{
-    width: 100vw;
+    /* width: 100vw;
     height: 85vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 
 .main-home > figure > img{
@@ -128,18 +132,19 @@ main > figure > img{
     display: flex;
     flex-direction: column;
     gap: 5rem;
+    justify-content: center;
+    height: 100%;
 }
 
 /* CARDS */
 .card-container{
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: center;
     flex-wrap: wrap;
     gap: 7rem;
-    margin-top: 1rem;
 }
 
 .card{
@@ -217,6 +222,8 @@ main > figure > img{
 
 dl{
     list-style-position: inside;
+    display: flex;
+    flex-direction: column;
 }
 
 li > ol{
@@ -227,7 +234,7 @@ li > ol{
 /* Rules of Play & Policies */
 
 h2{
-    width: 23vw;
+    width: 100%;
     text-align: center;
     margin-top: 1rem;
     line-height: 3rem;
@@ -247,7 +254,8 @@ h2{
 /* Contenedor */
 
 #rules{
-    width: 98vw;
+    width: 100%;
+    height: 100%;
     line-height: 1.5rem;
 
 }
@@ -292,10 +300,15 @@ dd{
 /*---------------------------------------------------- ABOUT -----------------------------------------------------------------------------------*/
 
 .container-about{
-    width: 55vw;
-    line-height: 2.5rem;
-    margin-right: 4rem;
-
+    /* width: 60%;
+    height: 100%;
+    line-height: 2rem; */
+    display: flex;
+    width: 60%;
+    height: 100%;
+    line-height: 2rem;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -343,15 +356,21 @@ dd{
 }
 
 .card-container-contact > .card{
-        border: 2px solid black;
-        
-        /* width: 30rem; */
-        display: block;
-        border-right: none;
-        border-bottom: none;
-        box-shadow: 5px 5px 5px;
-        margin-top:4rem;
-    }
+    border: 2px solid black;
+    display: block;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: 5px 5px 5px;
+    margin-top: 4rem;
+    width: 30rem;
+}
+
+.card-container-contact{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
 
 /*------------------------------------------ TABLE ---------------------------------------------------------------------------------------------*/
 
@@ -413,8 +432,8 @@ table > caption{
 
 .main-info{
     font-size: 1.2rem;
-    width: 98vw;
-    height: 85vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     /* align-items: center; */
@@ -446,12 +465,12 @@ fieldset{
 form{
     gap: 2rem;
     width: 100%;
+    height: 100%;
     max-width: 56.5rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
 }
 
 #address{
@@ -485,7 +504,7 @@ label > #full-name{
 }
 
 label > #permission-date{
-    width: auto auto;
+    width: auto;
 }
 
 form > input {
@@ -504,6 +523,7 @@ input{
     gap: 0.5rem;
     align-items: center;
     align-self: stretch;
+    margin-top: 1rem;
 }
 
 .map{
