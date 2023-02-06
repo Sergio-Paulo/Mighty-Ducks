@@ -12,9 +12,10 @@
 /* -------------------------------------------------------------------------------------------------------------------------------------------------- */
 h1{
     font-variant: all-petite-caps;
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     background-color: white;
+    margin-top: 0.5rem;
 }
 nav{
     margin-top: 1rem;
@@ -89,8 +90,8 @@ main{
 
 .main-home {
     font-size: 1.2rem;
-    width: 89vw;
-    height: 25vh;
+    width: 99vw;
+    height: 88vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,10 +144,8 @@ main > figure > img{
 
 .card{
     border: 2px solid black;
-    /* border-radius: 20px; */
-    /* width: 30rem; */
-    padding: 20px;
-	display: inline-block;
+	display: flex;
+    justify-content: center;
     border-right: none;
     border-bottom: none;
     box-shadow: 5px 5px 5px;
@@ -207,6 +206,10 @@ main > figure > img{
 }
 
 .rules-verde{
+    font-size: 2rem;
+}
+
+.registration-verde{
     font-size: 2rem;
 }
 
@@ -322,10 +325,7 @@ dd{
     gap: 10rem;
 } */
 
-.card-container{
-    margin-left: 2rem;
 
-}
 
 .img-card-about{
     display: inline-block;
@@ -344,10 +344,9 @@ dd{
 
 .card-container-contact > .card{
         border: 2px solid black;
-        /* border-radius: 20px; */
+        
         /* width: 30rem; */
-        padding: 20px;
-        display: inline-block;
+        display: block;
         border-right: none;
         border-bottom: none;
         box-shadow: 5px 5px 5px;
@@ -414,10 +413,50 @@ table > caption{
 
 .main-info{
     font-size: 1.2rem;
-    width: 100vw;
+    width: 98vw;
     height: 85vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
+    gap: 5rem;
     justify-content: space-between;
+}
+
+/*----------------------- REGISTRATION ------------------------------------*/
+
+#h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-self: center;
+
+}
+
+#h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+fieldset{
+    border: none;
+    line-height: 2rem;  
+}
+
+form{
+    /* width: 55vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem; */
+    gap: 2rem;
+    width: 100%;
+    max-width: 37.5rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#address{
+    width: 30rem;
 }
