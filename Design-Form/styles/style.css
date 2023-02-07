@@ -494,58 +494,49 @@ input{
     height: 6.12rem;
 }
 
-/*------------------------ MEDIA QUERIES -------------------------------- */
+/*------------------------ MEDIA QUERIES / Home -------------------------------- */
 
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
     :root{
         font-size: 14px;
     }
-
     h1{
         font-size: 1.4rem;
     }
     nav{
         display: none;
     }
-
     div{
         width: 100%;
     }
-
     figure{
         width: 100%;
         display: flex;
         justify-content: center;
-
     }
 
     .home-img{
         width: 90%;
     }
-
     #subtitle-home{
         font-size: 1.2rem;
     }
-
     .card{
         width: 90%;
     }
     .img-card-1, .img-card, .img-card-3{
         width: 100%;
     }
-
     .card-container{
         gap: 2rem;
         margin-bottom: 1rem;
     }
-
     .p-home{
         line-height: 2rem;
         align-items: center;
         text-align: center;
-    }
-    
+    }    
     .subtitle{
         font-size: 1.1rem;
     }
@@ -553,7 +544,19 @@ input{
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-
+    :root{
+        font-size: 14.5px;
+    }
+    .home-verde{
+        font-size: 1.3rem;
+    }
+    nav > a{
+        font-size: 0.9rem;
+        color: black;
+    }
+    nav{
+        background-color: white;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
