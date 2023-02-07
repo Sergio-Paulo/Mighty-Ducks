@@ -496,14 +496,14 @@ input{
 
 /*------------------------ MEDIA QUERIES -------------------------------- */
 
-@media only screen and (max-width: 319px){
-
-
-}
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+    :root{
+        font-size: 14px;
+    }
+
     h1{
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     nav{
         display: none;
@@ -528,7 +528,27 @@ input{
         font-size: 1.2rem;
     }
 
-    .card
+    .card{
+        width: 90%;
+    }
+    .img-card-1, .img-card, .img-card-3{
+        width: 100%;
+    }
+
+    .card-container{
+        gap: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .p-home{
+        line-height: 2rem;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .subtitle{
+        font-size: 1.1rem;
+    }
 
 }
 
