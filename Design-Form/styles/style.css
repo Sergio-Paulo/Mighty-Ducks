@@ -412,12 +412,10 @@ table > caption{
 #h1{
     font-size: 1.5rem;
     font-weight: bold;
-    align-self: center;
-    margin-top: 2rem;
-
+    text-align: center;
 }
 
-#h2{
+.h2{
     font-size: 1.2rem;
     font-weight: bold;
 }
